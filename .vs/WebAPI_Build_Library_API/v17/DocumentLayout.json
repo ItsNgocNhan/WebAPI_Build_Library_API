@@ -70,8 +70,7 @@
               "RelativeToolTip": "WebAPI_Build_Library_API\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-22T03:50:57.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T03:50:57.628Z"
             },
             {
               "$type": "Document",
@@ -95,8 +94,7 @@
               "RelativeToolTip": "WebAPI_Build_Library_API\\Models\\Domain\\Author.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T02:53:16.434Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T02:53:16.434Z"
             },
             {
               "$type": "Document",
@@ -108,8 +106,7 @@
               "RelativeToolTip": "WebAPI_Build_Library_API\\Models\\Domain\\Book_Author.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T02:53:11.355Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T02:53:11.355Z"
             },
             {
               "$type": "Document",
@@ -121,8 +118,7 @@
               "RelativeToolTip": "WebAPI_Build_Library_API\\Models\\DTO\\AddBookRequestDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T02:45:48.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T02:45:48.407Z"
             },
             {
               "$type": "Document",
@@ -134,8 +130,7 @@
               "RelativeToolTip": "WebAPI_Build_Library_API\\Models\\Domain\\Book.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvxQAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T01:42:25.986Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T01:42:25.986Z"
             },
             {
               "$type": "Document",
@@ -147,8 +142,7 @@
               "RelativeToolTip": "WebAPI_Build_Library_API\\Data\\AppDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwkAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T01:28:43.232Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T01:28:43.232Z"
             },
             {
               "$type": "Document",
@@ -160,8 +154,7 @@
               "RelativeToolTip": "WebAPI_Build_Library_API\\Models\\DTO\\BookWithAuthorAndPublisherDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvw4AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T01:28:17.52Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T01:28:17.52Z"
             },
             {
               "$type": "Document",
@@ -171,7 +164,7 @@
               "RelativeDocumentMoniker": "WebAPI_Build_Library_API\\Controllers\\BookController.cs",
               "ToolTip": "D:\\WEB API\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API\\Controllers\\BookController.cs",
               "RelativeToolTip": "WebAPI_Build_Library_API\\Controllers\\BookController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAiwCMAAABsAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAA2wCMAAABsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T01:27:20.9Z",
               "EditorCaption": ""
@@ -186,8 +179,7 @@
               "RelativeToolTip": "WebAPI_Build_Library_API\\Models\\Domain\\Publisher.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAwAIAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T02:53:14.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T02:53:14.759Z"
             }
           ]
         }
