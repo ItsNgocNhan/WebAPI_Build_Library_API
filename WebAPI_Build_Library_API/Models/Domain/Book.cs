@@ -11,7 +11,7 @@ namespace WebAPI_Build_Library_API.Models.Domain
         public bool IsRead { get; set; }
         public DateTime? DateRead { get; set; }
         public int? Rate { get; set; }
-        public string? Genre { get; set; }
+        public int? Genre { get; set; }
         public string? CoverURL { get; set; }
         public DateTime DateAdded { get; set; }
         

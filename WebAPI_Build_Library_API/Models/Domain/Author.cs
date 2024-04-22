@@ -7,8 +7,8 @@ namespace WebAPI_Build_Library_API.Models.Domain
     {
         [Key]
         public int Id { get; set; }
-        public string FullName { get; set; }
+        public string? FullName { get; set; }
         //Realtion
-        public List<Book_Author> Book_Authors { get; set; }
+        public List<Book_Author>? Book_Authors { get; set; }
     }
 }

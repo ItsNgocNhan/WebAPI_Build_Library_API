@@ -134,3 +134,4 @@ D:\WEB API\WebAPI_Build_Library_API\WebAPI_Build_Library_API\obj\Debug\net8.0\re
 D:\WEB API\WebAPI_Build_Library_API\WebAPI_Build_Library_API\obj\Debug\net8.0\WebAPI_Build_Library_API.pdb
 D:\WEB API\WebAPI_Build_Library_API\WebAPI_Build_Library_API\obj\Debug\net8.0\WebAPI_Build_Library_API.genruntimeconfig.cache
 D:\WEB API\WebAPI_Build_Library_API\WebAPI_Build_Library_API\obj\Debug\net8.0\ref\WebAPI_Build_Library_API.dll
+D:\WEB API\WebAPI_Build_Library_API\WebAPI_Build_Library_API\obj\Debug\net8.0\WebAPI_Build_Library_API.sourcelink.json
