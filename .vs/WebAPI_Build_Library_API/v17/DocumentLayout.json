@@ -46,8 +46,7 @@
               "RelativeToolTip": "WebAPI_Build_Library_API\\Data\\AppDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T01:26:38.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-24T01:26:38.202Z"
             },
             {
               "$type": "Document",
@@ -59,8 +58,7 @@
               "RelativeToolTip": "WebAPI_Build_Library_API\\Models\\DTO\\BookWithAuthorAndPublisherDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwIAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T01:25:49.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-24T01:25:49.309Z"
             },
             {
               "$type": "Document",
@@ -72,8 +70,7 @@
               "RelativeToolTip": "WebAPI_Build_Library_API\\Models\\DTO\\AddBookRequestDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwIAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T01:25:29.666Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-24T01:25:29.666Z"
             },
             {
               "$type": "Document",
@@ -83,7 +80,7 @@
               "RelativeDocumentMoniker": "WebAPI_Build_Library_API\\Controllers\\BookController.cs",
               "ToolTip": "D:\\WEB API\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API\\Controllers\\BookController.cs",
               "RelativeToolTip": "WebAPI_Build_Library_API\\Controllers\\BookController.cs",
-              "ViewState": "AQIAAHAAAAAAAAAAAAAxwIMAAABQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-24T01:18:38.711Z",
               "EditorCaption": ""
