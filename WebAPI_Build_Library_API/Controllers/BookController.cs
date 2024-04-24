@@ -33,22 +33,34 @@ namespace WebAPI_Build_Library_API.Controllers
                 Genre = Books.Genre,
                 CoverUrl = Books.CoverURL,
                 PublisherName = Books.Publisher.Name,
-                AuthorNames = Books.Book_Authors.Select(Book_Author => Book_Author.Author.FullName).ToList()
+                AuthorNames = Books.Book_Authors.Select(n => n.Author.FullName).ToList()
             }).ToList();
             return Ok(allBooksDTO);
         }
-        //[HttpGet("{id}")]
-        //public ActionResult<Book> GetBook(int id)
-        //{
-        //    var book = appDbContext.Books.Find(id);
-
-        //    if (book == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    return book;
-        //}
+        [HttpGet]
+        [Route("get-book-by-id/{id}")]
+        public IActionResult GetBookById([FromRoute] int id)
+        {
+            var BookWithDomian = appDbContext.Books.Where(n => n.Id == id);
+            if (BookWithDomian == null)
+            {
+                return NotFound();
+            }
+            var BookWithIdDTO = BookWithDomian.Select(book => new BookWithAuthorAndPublisherDTO()
+            {
+                Id = book.Id,
+                Title = book.Title,
+                Description = book.Description,
+                IsRead = book.IsRead,
+                DateRead = book.DateRead,
+                Rate = book.Rate,
+                Genre = book.Genre,
+                CoverUrl = book.CoverURL,
+                PublisherName = book.Publisher.Name,
+                AuthorNames = book.Book_Authors.Select(n => n.Author.FullName).ToList()
+            });
+            return Ok(BookWithIdDTO);
+        }
         [HttpPost("add-book")]
         public IActionResult AddBook([FromBody] AddBookRequestDTO addBookRequestDTO)
         {
@@ -78,43 +90,52 @@ namespace WebAPI_Build_Library_API.Controllers
             }
             return Ok();
         }
-        //[HttpPost]
-        //public IActionResult PostBook(Book book)
-        //{
-        //    appDbContext.Books.Add(book);
-        //    appDbContext.SaveChanges();
+        [HttpPut("update-book-by-id/{id}")]
+        public IActionResult UpdateBookById(int id, [FromBody] AddBookRequestDTO bookDTO) 
+        {
+            var bookDomain = appDbContext.Books.FirstOrDefault(n => n.Id == id);
+            if (bookDomain != null) 
+            {
+                bookDomain.Title = bookDTO.Title;
+                bookDomain.Description = bookDTO.Description;
+                bookDomain.IsRead = bookDTO.IsRead;
+                bookDomain.DateRead = bookDTO.DateRead;
+                bookDomain.Rate = bookDTO.Rate;
+                bookDomain.Genre = bookDTO.Genre;
+                bookDomain.CoverURL = bookDTO.CoverUrl;
+                bookDomain.DateAdded = bookDTO.DateAdded;
+                bookDomain.PublisherID = bookDTO.PublisherId;
+                appDbContext.SaveChanges();
+            }
+            var authorDomain = appDbContext.Book_Authors.Where(a => a.BookId == id).ToList();
+            if (authorDomain != null)
+            {
+                appDbContext.Book_Authors.RemoveRange(authorDomain);
+                appDbContext.SaveChanges();
+            }
+            foreach (var authorid in bookDTO.AuthorIds)
+            {
+                var _book_author = new Book_Author()
+                {
+                    BookId = id,
+                    AuthorId = authorid,
+                };
 
-        //    return CreatedAtAction(nameof(GetBook), new { id = book.Id }, book);
-        //}
-
-        //[HttpPut("{id}")]
-        //public IActionResult PutBook(int id, Book book)
-        //{
-        //    if (id != book.Id)
-        //    {
-        //        return BadRequest();
-        //    }
-
-        //    appDbContext.Entry(book).State = EntityState.Modified;
-        //    appDbContext.SaveChanges();
-
-        //    return NoContent();
-        //}
-
-        //[HttpDelete("{id}")]
-        //public IActionResult DeleteBook(int id)
-        //{
-        //    var book = appDbContext.Books.Find(id);
-
-        //    if (book == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    appDbContext.Books.Remove(book);
-        //    appDbContext.SaveChanges();
-
-        //    return NoContent();
-        //}
+                appDbContext.Book_Authors.Add(_book_author);
+                appDbContext.SaveChanges();
+            }
+            return Ok(bookDTO);
+        }
+        [HttpDelete("delete-book-by-id/{id}")]
+        public IActionResult DeleteBookById(int id)
+        {
+            var bookDomain = appDbContext.Books.FirstOrDefault(n => n.Id == id);
+            if (bookDomain != null)
+            {
+                appDbContext.Books.Remove(bookDomain);
+                appDbContext.SaveChanges();
+            }
+            return Ok();
+        }
     }
 }
