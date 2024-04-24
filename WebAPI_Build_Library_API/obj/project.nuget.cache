@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bI4gjLVVdlgJrWC7irQCZ6N1m+75EG2LjkTxG/C/8Wj0uoWU4sUOy8D0IXF0GLciKAuMX0bgxJ9ndbsykBCcig==",
+  "dgSpecHash": "UIFog25IBGlQnRIJ4x8MZLB29u9vHSE4aSf8H+/izcY7vyKiVJGgM0fHEsgwxEEKj9rgapThJSDLUD1yIZqq7Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ngoc Nhan\\Source\\Repos\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj",
+  "projectFilePath": "C:\\Users\\Ngoc Nhan\\source\\repos\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ngoc Nhan\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Ngoc Nhan\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

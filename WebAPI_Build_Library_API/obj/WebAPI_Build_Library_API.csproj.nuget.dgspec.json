@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ngoc Nhan\\Source\\Repos\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj": {}
+    "C:\\Users\\Ngoc Nhan\\source\\repos\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ngoc Nhan\\Source\\Repos\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj": {
+    "C:\\Users\\Ngoc Nhan\\source\\repos\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ngoc Nhan\\Source\\Repos\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj",
+        "projectUniqueName": "C:\\Users\\Ngoc Nhan\\source\\repos\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj",
         "projectName": "WebAPI_Build_Library_API",
-        "projectPath": "C:\\Users\\Ngoc Nhan\\Source\\Repos\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj",
+        "projectPath": "C:\\Users\\Ngoc Nhan\\source\\repos\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj",
         "packagesPath": "C:\\Users\\Ngoc Nhan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ngoc Nhan\\Source\\Repos\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API\\obj\\",
+        "outputPath": "C:\\Users\\Ngoc Nhan\\source\\repos\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ngoc Nhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
