@@ -27,6 +27,11 @@ git push origin master
 ### - Version 1.3  - 24/04/2024:
 - Đã fix được phương thức GET trong BookController. Bao gồm: [HttpGet("get-all-books")] & [HttpGet][Route("get-book-by-id/{id}")]
 - Chưa fix được các lỗi trong BookController.
+### - Version 1.4  - 25/04/2024:
+- Build lại các phương thức trong Controller.
+- GET 202, POST - PUT - DELETE 404 =)))
+- Build Repositories
+- Change appDbContetxt => _dbContext
 
 ## Contact
 
