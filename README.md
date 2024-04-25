@@ -24,7 +24,9 @@ git push origin master
 ### - Version 1.2  - 24/04/2024:
 - Xây thêm các DTO.
 - Chưa fix được các lỗi trong BookController.
-
+### - Version 1.3  - 24/04/2024:
+- Đã fix được phương thức GET trong BookController. Bao gồm: [HttpGet("get-all-books")] & [HttpGet][Route("get-book-by-id/{id}")]
+- Chưa fix được các lỗi trong BookController.
 
 ## Contact
 
