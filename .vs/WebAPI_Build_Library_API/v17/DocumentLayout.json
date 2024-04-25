@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|solutionrelative:webapi_build_library_api\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|c:\\users\\ngoc nhan\\source\\repos\\webapi_build_library_api\\webapi_build_library_api\\models\\domain\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|solutionrelative:webapi_build_library_api\\models\\domain\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|c:\\users\\ngoc nhan\\source\\repos\\webapi_build_library_api\\webapi_build_library_api\\repositories\\sqlbookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|solutionrelative:webapi_build_library_api\\repositories\\sqlbookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|c:\\users\\ngoc nhan\\source\\repos\\webapi_build_library_api\\webapi_build_library_api\\repositories\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|solutionrelative:webapi_build_library_api\\repositories\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|c:\\users\\ngoc nhan\\source\\repos\\webapi_build_library_api\\webapi_build_library_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|solutionrelative:webapi_build_library_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|c:\\users\\ngoc nhan\\source\\repos\\webapi_build_library_api\\webapi_build_library_api\\models\\dto\\addbookrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|solutionrelative:webapi_build_library_api\\models\\dto\\addbookrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|c:\\users\\ngoc nhan\\source\\repos\\webapi_build_library_api\\webapi_build_library_api\\models\\dto\\bookwithauthorandpublisherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|solutionrelative:webapi_build_library_api\\models\\dto\\bookwithauthorandpublisherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|c:\\users\\ngoc nhan\\source\\repos\\webapi_build_library_api\\webapi_build_library_api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|solutionrelative:webapi_build_library_api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,54 +42,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\Ngoc Nhan\\source\\repos\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API\\Models\\Domain\\Book.cs",
-              "RelativeDocumentMoniker": "WebAPI_Build_Library_API\\Models\\Domain\\Book.cs",
-              "ToolTip": "C:\\Users\\Ngoc Nhan\\source\\repos\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API\\Models\\Domain\\Book.cs",
-              "RelativeToolTip": "WebAPI_Build_Library_API\\Models\\Domain\\Book.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAYAAAA",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ngoc Nhan\\source\\repos\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI_Build_Library_API\\Program.cs",
+              "ToolTip": "C:\\Users\\Ngoc Nhan\\source\\repos\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API\\Program.cs",
+              "RelativeToolTip": "WebAPI_Build_Library_API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxEAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T02:38:21.374Z",
+              "WhenOpened": "2024-04-25T10:49:05.231Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Ngoc Nhan\\source\\repos\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "WebAPI_Build_Library_API\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Ngoc Nhan\\source\\repos\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "WebAPI_Build_Library_API\\Data\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T01:26:38.202Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BookWithAuthorAndPublisherDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Ngoc Nhan\\source\\repos\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API\\Models\\DTO\\BookWithAuthorAndPublisherDTO.cs",
-              "RelativeDocumentMoniker": "WebAPI_Build_Library_API\\Models\\DTO\\BookWithAuthorAndPublisherDTO.cs",
-              "ToolTip": "C:\\Users\\Ngoc Nhan\\source\\repos\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API\\Models\\DTO\\BookWithAuthorAndPublisherDTO.cs",
-              "RelativeToolTip": "WebAPI_Build_Library_API\\Models\\DTO\\BookWithAuthorAndPublisherDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T01:25:49.309Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "AddBookRequestDTO.cs",
               "DocumentMoniker": "C:\\Users\\Ngoc Nhan\\source\\repos\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API\\Models\\DTO\\AddBookRequestDTO.cs",
               "RelativeDocumentMoniker": "WebAPI_Build_Library_API\\Models\\DTO\\AddBookRequestDTO.cs",
               "ToolTip": "C:\\Users\\Ngoc Nhan\\source\\repos\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API\\Models\\DTO\\AddBookRequestDTO.cs",
               "RelativeToolTip": "WebAPI_Build_Library_API\\Models\\DTO\\AddBookRequestDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwIAAAAiAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T01:25:29.666Z",
+              "WhenOpened": "2024-04-25T10:43:19.115Z",
               "EditorCaption": ""
             },
             {
@@ -100,9 +74,35 @@
               "RelativeDocumentMoniker": "WebAPI_Build_Library_API\\Controllers\\BookController.cs",
               "ToolTip": "C:\\Users\\Ngoc Nhan\\source\\repos\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API\\Controllers\\BookController.cs",
               "RelativeToolTip": "WebAPI_Build_Library_API\\Controllers\\BookController.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAnwCgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T01:18:38.711Z",
+              "WhenOpened": "2024-04-25T10:39:18.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SQLBookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ngoc Nhan\\source\\repos\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API\\Repositories\\SQLBookRepository.cs",
+              "RelativeDocumentMoniker": "WebAPI_Build_Library_API\\Repositories\\SQLBookRepository.cs",
+              "ToolTip": "C:\\Users\\Ngoc Nhan\\source\\repos\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API\\Repositories\\SQLBookRepository.cs",
+              "RelativeToolTip": "WebAPI_Build_Library_API\\Repositories\\SQLBookRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T10:32:58.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ngoc Nhan\\source\\repos\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API\\Repositories\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "WebAPI_Build_Library_API\\Repositories\\IBookRepository.cs",
+              "ToolTip": "C:\\Users\\Ngoc Nhan\\source\\repos\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API\\Repositories\\IBookRepository.cs",
+              "RelativeToolTip": "WebAPI_Build_Library_API\\Repositories\\IBookRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwsAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T10:32:23.289Z",
               "EditorCaption": ""
             }
           ]
