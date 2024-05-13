@@ -32,7 +32,9 @@ git push origin master
 - GET 202, POST - PUT - DELETE 404 =)))
 - Build Repositories
 - Change appDbContetxt => _dbContext
-
+### - Version 1.5  - 13/05/2024:
+- Xây dựng Controller Auhtor và Pushlisher
+- Chưa thiết lập được Validate ở Model và Controller
 ## Contact
 
 [Facebook](https://www.facebook.com/ItsNgocNhan/)
