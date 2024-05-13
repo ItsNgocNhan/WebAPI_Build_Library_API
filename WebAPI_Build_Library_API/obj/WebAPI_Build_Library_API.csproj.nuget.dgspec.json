@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ngoc Nhan\\source\\repos\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj": {}
+    "D:\\BaiLab API\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ngoc Nhan\\source\\repos\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj": {
+    "D:\\BaiLab API\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ngoc Nhan\\source\\repos\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj",
+        "projectUniqueName": "D:\\BaiLab API\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj",
         "projectName": "WebAPI_Build_Library_API",
-        "projectPath": "C:\\Users\\Ngoc Nhan\\source\\repos\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj",
+        "projectPath": "D:\\BaiLab API\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj",
         "packagesPath": "C:\\Users\\Ngoc Nhan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ngoc Nhan\\source\\repos\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API\\obj\\",
+        "outputPath": "D:\\BaiLab API\\WebAPI_Build_Library_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ngoc Nhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

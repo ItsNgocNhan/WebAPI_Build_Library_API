@@ -1,8 +1,12 @@
-﻿namespace WebAPI_Build_Library_API.Models.DTO
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace WebAPI_Build_Library_API.Models.DTO
 {
     public class AddBookRequestDTO
     {
         public int? Id { get; set; }
+        [Required]
+        [MinLength(10)]
         public string? Title { get; set; }
         public string? Description { get; set; }
         public bool IsRead { get; set; }
