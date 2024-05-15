@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\WebAPI_Build_Library_API",
+    "\\WebAPI_Build_Library_API\\Migrations",
+    "\\WebAPI_Build_Library_API\\Repositories"
   ],
-  "SelectedNode": "\\WebAPI_Build_Library_API.sln",
+  "SelectedNode": "\\WebAPI_Build_Library_API\\Migrations\\20240514090236_InitialCreate.cs",
   "PreviewInSolutionExplorer": false
 }

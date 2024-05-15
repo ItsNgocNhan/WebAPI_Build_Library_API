@@ -1,0 +1,19 @@
+2024-05-15 14:23:50.985 +07:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-15 14:23:51.053 +07:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-15 14:23:51.055 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-15 14:23:51.056 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-15 14:23:51.074 +07:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-05-15 14:23:51.085 +07:00 [INF] No migrations were applied. The database is already up to date.
+2024-05-15 14:23:59.191 +07:00 [INF] User profile is available. Using 'C:\Users\Ngoc Nhan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-15 14:23:59.485 +07:00 [INF] Now listening on: https://localhost:7118
+2024-05-15 14:23:59.487 +07:00 [INF] Now listening on: http://localhost:5202
+2024-05-15 14:23:59.491 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-15 14:23:59.493 +07:00 [INF] Hosting environment: Development
+2024-05-15 14:23:59.501 +07:00 [INF] Content root path: D:\Lab API\WebAPI_Build_Library_API

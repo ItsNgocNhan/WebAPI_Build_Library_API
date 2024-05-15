@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BaiLab API\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj": {}
+    "D:\\Lab API\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj": {}
   },
   "projects": {
-    "D:\\BaiLab API\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj": {
+    "D:\\Lab API\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BaiLab API\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj",
+        "projectUniqueName": "D:\\Lab API\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj",
         "projectName": "WebAPI_Build_Library_API",
-        "projectPath": "D:\\BaiLab API\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj",
+        "projectPath": "D:\\Lab API\\WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj",
         "packagesPath": "C:\\Users\\Ngoc Nhan\\.nuget\\packages\\",
-        "outputPath": "D:\\BaiLab API\\WebAPI_Build_Library_API\\obj\\",
+        "outputPath": "D:\\Lab API\\WebAPI_Build_Library_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ngoc Nhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,18 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.Build.Framework": {
+              "target": "Package",
+              "version": "[17.9.5, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.4, )"
@@ -65,9 +77,33 @@
               "target": "Package",
               "version": "[8.0.4, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.5.2, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.5.2, )"
             }
           },
           "imports": [

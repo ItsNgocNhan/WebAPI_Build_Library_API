@@ -1,46 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\BaiLab API\\",
+  "WorkspaceRootPath": "D:\\Lab API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|d:\\bailab api\\webapi_build_library_api\\repositories\\sqlbookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|solutionrelative:webapi_build_library_api\\repositories\\sqlbookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|d:\\lab api\\webapi_build_library_api\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|solutionrelative:webapi_build_library_api\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|d:\\bailab api\\webapi_build_library_api\\repositories\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|solutionrelative:webapi_build_library_api\\repositories\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|d:\\bailab api\\webapi_build_library_api\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|solutionrelative:webapi_build_library_api\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|D:\\BaiLab API\\webapi_build_library_api\\controllers\\publisherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|solutionrelative:webapi_build_library_api\\controllers\\publisherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|D:\\BaiLab API\\webapi_build_library_api\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|solutionrelative:webapi_build_library_api\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|D:\\BaiLab API\\webapi_build_library_api\\customactionfilter\\validatemodelattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|solutionrelative:webapi_build_library_api\\customactionfilter\\validatemodelattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|D:\\BaiLab API\\webapi_build_library_api\\models\\dto\\addbookrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|solutionrelative:webapi_build_library_api\\models\\dto\\addbookrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|D:\\BaiLab API\\webapi_build_library_api\\models\\domain\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|solutionrelative:webapi_build_library_api\\models\\domain\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|D:\\BaiLab API\\webapi_build_library_api\\repositories\\sqlpublisherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|solutionrelative:webapi_build_library_api\\repositories\\sqlpublisherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|D:\\BaiLab API\\webapi_build_library_api\\repositories\\ipublisherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|solutionrelative:webapi_build_library_api\\repositories\\ipublisherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|d:\\lab api\\webapi_build_library_api\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{373A61F4-6EC8-4DFC-B6B2-7B38A962C467}|WebAPI_Build_Library_API\\WebAPI_Build_Library_API.csproj|solutionrelative:webapi_build_library_api\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,131 +31,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SQLBookRepository.cs",
-              "DocumentMoniker": "D:\\BaiLab API\\WebAPI_Build_Library_API\\Repositories\\SQLBookRepository.cs",
-              "RelativeDocumentMoniker": "WebAPI_Build_Library_API\\Repositories\\SQLBookRepository.cs",
-              "ToolTip": "D:\\BaiLab API\\WebAPI_Build_Library_API\\Repositories\\SQLBookRepository.cs",
-              "RelativeToolTip": "WebAPI_Build_Library_API\\Repositories\\SQLBookRepository.cs",
-              "ViewState": "AQIAAEoAAAAAAAAAAAArwFsAAAA7AAAA",
+              "Title": "ImagesController.cs",
+              "DocumentMoniker": "D:\\Lab API\\WebAPI_Build_Library_API\\Controllers\\ImagesController.cs",
+              "RelativeDocumentMoniker": "WebAPI_Build_Library_API\\Controllers\\ImagesController.cs",
+              "ToolTip": "D:\\Lab API\\WebAPI_Build_Library_API\\Controllers\\ImagesController.cs",
+              "RelativeToolTip": "WebAPI_Build_Library_API\\Controllers\\ImagesController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA5wCoAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T02:43:12.401Z",
+              "WhenOpened": "2024-05-15T07:22:36.395Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IBookRepository.cs",
-              "DocumentMoniker": "D:\\BaiLab API\\WebAPI_Build_Library_API\\Repositories\\IBookRepository.cs",
-              "RelativeDocumentMoniker": "WebAPI_Build_Library_API\\Repositories\\IBookRepository.cs",
-              "ToolTip": "D:\\BaiLab API\\WebAPI_Build_Library_API\\Repositories\\IBookRepository.cs",
-              "RelativeToolTip": "WebAPI_Build_Library_API\\Repositories\\IBookRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABYAAAA",
+              "Title": "Image.cs",
+              "DocumentMoniker": "D:\\Lab API\\WebAPI_Build_Library_API\\Models\\Image.cs",
+              "RelativeDocumentMoniker": "WebAPI_Build_Library_API\\Models\\Image.cs",
+              "ToolTip": "D:\\Lab API\\WebAPI_Build_Library_API\\Models\\Image.cs",
+              "RelativeToolTip": "WebAPI_Build_Library_API\\Models\\Image.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T02:42:39.96Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BookController.cs",
-              "DocumentMoniker": "D:\\BaiLab API\\WebAPI_Build_Library_API\\Controllers\\BookController.cs",
-              "RelativeDocumentMoniker": "WebAPI_Build_Library_API\\Controllers\\BookController.cs",
-              "ToolTip": "D:\\BaiLab API\\WebAPI_Build_Library_API\\Controllers\\BookController.cs",
-              "RelativeToolTip": "WebAPI_Build_Library_API\\Controllers\\BookController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAgwB4AAABVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T01:31:56.52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AddBookRequestDTO.cs",
-              "DocumentMoniker": "D:\\BaiLab API\\WebAPI_Build_Library_API\\Models\\DTO\\AddBookRequestDTO.cs",
-              "RelativeDocumentMoniker": "WebAPI_Build_Library_API\\Models\\DTO\\AddBookRequestDTO.cs",
-              "ToolTip": "D:\\BaiLab API\\WebAPI_Build_Library_API\\Models\\DTO\\AddBookRequestDTO.cs",
-              "RelativeToolTip": "WebAPI_Build_Library_API\\Models\\DTO\\AddBookRequestDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T01:31:04.725Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Book.cs",
-              "DocumentMoniker": "D:\\BaiLab API\\WebAPI_Build_Library_API\\Models\\Domain\\Book.cs",
-              "RelativeDocumentMoniker": "WebAPI_Build_Library_API\\Models\\Domain\\Book.cs",
-              "ToolTip": "D:\\BaiLab API\\WebAPI_Build_Library_API\\Models\\Domain\\Book.cs",
-              "RelativeToolTip": "WebAPI_Build_Library_API\\Models\\Domain\\Book.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T01:30:47.332Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AuthorsController.cs",
-              "DocumentMoniker": "D:\\BaiLab API\\WebAPI_Build_Library_API\\Controllers\\AuthorsController.cs",
-              "RelativeDocumentMoniker": "WebAPI_Build_Library_API\\Controllers\\AuthorsController.cs",
-              "ToolTip": "D:\\BaiLab API\\WebAPI_Build_Library_API\\Controllers\\AuthorsController.cs",
-              "RelativeToolTip": "WebAPI_Build_Library_API\\Controllers\\AuthorsController.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAwwCIAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T01:27:54.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SQLPublisherRepository.cs",
-              "DocumentMoniker": "D:\\BaiLab API\\WebAPI_Build_Library_API\\Repositories\\SQLPublisherRepository.cs",
-              "RelativeDocumentMoniker": "WebAPI_Build_Library_API\\Repositories\\SQLPublisherRepository.cs",
-              "ToolTip": "D:\\BaiLab API\\WebAPI_Build_Library_API\\Repositories\\SQLPublisherRepository.cs",
-              "RelativeToolTip": "WebAPI_Build_Library_API\\Repositories\\SQLPublisherRepository.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwAgAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T01:22:56.213Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IPublisherRepository.cs",
-              "DocumentMoniker": "D:\\BaiLab API\\WebAPI_Build_Library_API\\Repositories\\IPublisherRepository.cs",
-              "RelativeDocumentMoniker": "WebAPI_Build_Library_API\\Repositories\\IPublisherRepository.cs",
-              "ToolTip": "D:\\BaiLab API\\WebAPI_Build_Library_API\\Repositories\\IPublisherRepository.cs",
-              "RelativeToolTip": "WebAPI_Build_Library_API\\Repositories\\IPublisherRepository.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAiwAsAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T01:22:36.962Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PublishersController.cs",
-              "DocumentMoniker": "D:\\BaiLab API\\WebAPI_Build_Library_API\\Controllers\\PublishersController.cs",
-              "RelativeDocumentMoniker": "WebAPI_Build_Library_API\\Controllers\\PublishersController.cs",
-              "ToolTip": "D:\\BaiLab API\\WebAPI_Build_Library_API\\Controllers\\PublishersController.cs",
-              "RelativeToolTip": "WebAPI_Build_Library_API\\Controllers\\PublishersController.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAIwCcAAABZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T01:20:18.634Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ValidateModelAttribute.cs",
-              "DocumentMoniker": "D:\\BaiLab API\\WebAPI_Build_Library_API\\CustomActionFilter\\ValidateModelAttribute.cs",
-              "RelativeDocumentMoniker": "WebAPI_Build_Library_API\\CustomActionFilter\\ValidateModelAttribute.cs",
-              "ToolTip": "D:\\BaiLab API\\WebAPI_Build_Library_API\\CustomActionFilter\\ValidateModelAttribute.cs",
-              "RelativeToolTip": "WebAPI_Build_Library_API\\CustomActionFilter\\ValidateModelAttribute.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T01:34:55.457Z",
+              "WhenOpened": "2024-05-15T07:22:05.021Z",
               "EditorCaption": ""
             }
           ]

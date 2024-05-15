@@ -1,0 +1,42 @@
+2024-05-15 14:24:00.522 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/swagger/index.html - null null
+2024-05-15 14:24:01.053 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/swagger/index.html - 200 null text/html;charset=utf-8 543.4844ms
+2024-05-15 14:24:01.061 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-15 14:24:01.062 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_vs/browserLink - null null
+2024-05-15 14:24:01.091 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript; charset=utf-8 29.6026ms
+2024-05-15 14:24:01.240 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_vs/browserLink - 200 null text/javascript; charset=UTF-8 178.2689ms
+2024-05-15 14:24:01.358 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/swagger/v1/swagger.json - null null
+2024-05-15 14:24:01.637 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 279.397ms
+2024-05-15 14:24:17.505 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7118/api/Images/Upload - multipart/form-data; boundary=----WebKitFormBoundaryJxtTbq8dHk0QXBcr 32295
+2024-05-15 14:24:17.600 +07:00 [INF] Executing endpoint 'WebAPI_Build_Library_API.Controllers.ImagesController.Upload (WebAPI_Build_Library_API)'
+2024-05-15 14:24:17.623 +07:00 [INF] Route matched with {action = "Upload", controller = "Images"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Upload(WebAPI_Build_Library_API.Models.DTO.ImageUploadRequestDTO) on controller WebAPI_Build_Library_API.Controllers.ImagesController (WebAPI_Build_Library_API).
+2024-05-15 14:24:18.938 +07:00 [INF] Executed DbCommand (36ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [MyImages] ([FileDescription], [FileExtension], [FileName], [FilePath], [FizeSizeInBytes])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-05-15 14:24:18.974 +07:00 [INF] Executing OkObjectResult, writing value of type 'WebAPI_Build_Library_API.Models.Image'.
+2024-05-15 14:24:18.992 +07:00 [INF] Executed action WebAPI_Build_Library_API.Controllers.ImagesController.Upload (WebAPI_Build_Library_API) in 1363.3445ms
+2024-05-15 14:24:18.994 +07:00 [INF] Executed endpoint 'WebAPI_Build_Library_API.Controllers.ImagesController.Upload (WebAPI_Build_Library_API)'
+2024-05-15 14:24:19.007 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7118/api/Images/Upload - 200 null application/json; charset=utf-8 1502.8241ms
+2024-05-15 14:24:26.781 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/api/Images - null null
+2024-05-15 14:24:26.788 +07:00 [INF] Executing endpoint 'WebAPI_Build_Library_API.Controllers.ImagesController.GetAllInfoImages (WebAPI_Build_Library_API)'
+2024-05-15 14:24:26.792 +07:00 [INF] Route matched with {action = "GetAllInfoImages", controller = "Images"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllInfoImages() on controller WebAPI_Build_Library_API.Controllers.ImagesController (WebAPI_Build_Library_API).
+2024-05-15 14:24:27.024 +07:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[FileDescription], [m].[FileExtension], [m].[FileName], [m].[FilePath], [m].[FizeSizeInBytes]
+FROM [MyImages] AS [m]
+2024-05-15 14:24:27.032 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebAPI_Build_Library_API.Models.Image, WebAPI_Build_Library_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-15 14:24:27.042 +07:00 [INF] Executed action WebAPI_Build_Library_API.Controllers.ImagesController.GetAllInfoImages (WebAPI_Build_Library_API) in 246.3237ms
+2024-05-15 14:24:27.049 +07:00 [INF] Executed endpoint 'WebAPI_Build_Library_API.Controllers.ImagesController.GetAllInfoImages (WebAPI_Build_Library_API)'
+2024-05-15 14:24:27.050 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/api/Images - 200 null application/json; charset=utf-8 269.1187ms
+2024-05-15 14:24:38.043 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/api/Images/Download?id=1 - null null
+2024-05-15 14:24:38.052 +07:00 [INF] Executing endpoint 'WebAPI_Build_Library_API.Controllers.ImagesController.DownloadImage (WebAPI_Build_Library_API)'
+2024-05-15 14:24:38.054 +07:00 [INF] Route matched with {action = "DownloadImage", controller = "Images"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DownloadImage(Int32) on controller WebAPI_Build_Library_API.Controllers.ImagesController (WebAPI_Build_Library_API).
+2024-05-15 14:24:38.133 +07:00 [INF] Executed DbCommand (7ms) [Parameters=[@__Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[Id], [m].[FileDescription], [m].[FileExtension], [m].[FileName], [m].[FilePath], [m].[FizeSizeInBytes]
+FROM [MyImages] AS [m]
+WHERE [m].[Id] = @__Id_0
+2024-05-15 14:24:38.148 +07:00 [INF] Executing FileContentResult, sending file with download name 'Chó.jpg' ...
+2024-05-15 14:24:38.160 +07:00 [INF] Executed action WebAPI_Build_Library_API.Controllers.ImagesController.DownloadImage (WebAPI_Build_Library_API) in 103.1035ms
+2024-05-15 14:24:38.162 +07:00 [INF] Executed endpoint 'WebAPI_Build_Library_API.Controllers.ImagesController.DownloadImage (WebAPI_Build_Library_API)'
+2024-05-15 14:24:38.163 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/api/Images/Download?id=1 - 200 31881 application/octet-stream 120.3004ms
