@@ -1,0 +1,17 @@
+2024-05-16 12:28:22.884 +07:00 [INF] User profile is available. Using 'C:\Users\Ngoc Nhan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-16 12:28:23.144 +07:00 [INF] Now listening on: https://localhost:7118
+2024-05-16 12:28:23.145 +07:00 [INF] Now listening on: http://localhost:5202
+2024-05-16 12:28:23.146 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-16 12:28:23.147 +07:00 [INF] Hosting environment: Development
+2024-05-16 12:28:23.148 +07:00 [INF] Content root path: D:\Lab API\WebAPI_Build_Library_API
+2024-05-16 12:28:25.066 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/swagger/index.html - null null
+2024-05-16 12:28:25.393 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/swagger/index.html - 200 null text/html;charset=utf-8 342.9454ms
+2024-05-16 12:28:25.402 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-16 12:28:25.412 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_vs/browserLink - null null
+2024-05-16 12:28:25.427 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript; charset=utf-8 25.3022ms
+2024-05-16 12:28:25.429 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7118/api/Books/get-all-books?%20filterOn=&filterQuery=&sortBy=&isAscending=True - null null
+2024-05-16 12:28:25.527 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_vs/browserLink - 200 null text/javascript; charset=UTF-8 115.2871ms
+2024-05-16 12:28:25.542 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7118/api/Books/get-all-books?%20filterOn=&filterQuery=&sortBy=&isAscending=True - 404 0 null 112.3995ms
+2024-05-16 12:28:25.547 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7118/api/Books/get-all-books, Response status code: 404
+2024-05-16 12:28:25.613 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/swagger/v1/swagger.json - null null
+2024-05-16 12:28:33.525 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7912.716ms

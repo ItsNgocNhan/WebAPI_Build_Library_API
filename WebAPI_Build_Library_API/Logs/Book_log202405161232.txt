@@ -1,0 +1,43 @@
+2024-05-16 12:32:07.256 +07:00 [INF] User profile is available. Using 'C:\Users\Ngoc Nhan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-16 12:32:07.445 +07:00 [INF] Now listening on: https://localhost:7118
+2024-05-16 12:32:07.446 +07:00 [INF] Now listening on: http://localhost:5202
+2024-05-16 12:32:07.449 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-16 12:32:07.451 +07:00 [INF] Hosting environment: Development
+2024-05-16 12:32:07.452 +07:00 [INF] Content root path: D:\Lab API\WebAPI_Build_Library_API
+2024-05-16 12:32:08.945 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/swagger/index.html - null null
+2024-05-16 12:32:09.876 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/swagger/index.html - 200 null text/html;charset=utf-8 940.1192ms
+2024-05-16 12:32:09.885 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-16 12:32:09.894 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_vs/browserLink - null null
+2024-05-16 12:32:09.902 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript; charset=utf-8 17.1962ms
+2024-05-16 12:32:09.928 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7118/api/Books/get-all-books?filterOn=&filterQuery=&sortBy=&isAscending=True - null null
+2024-05-16 12:32:10.069 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_vs/browserLink - 200 null text/javascript; charset=UTF-8 174.5929ms
+2024-05-16 12:32:10.089 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7118/api/Books/get-all-books?filterOn=&filterQuery=&sortBy=&isAscending=True - 404 0 null 161.2942ms
+2024-05-16 12:32:10.093 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7118/api/Books/get-all-books, Response status code: 404
+2024-05-16 12:32:10.134 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/swagger/v1/swagger.json - null null
+2024-05-16 12:32:17.184 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7050.6327ms
+2024-05-16 12:32:25.835 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/api/Book/get-all-books?pageNumber=1&pageSize=100 - null null
+2024-05-16 12:32:25.856 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Read)
+2024-05-16 12:32:25.866 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-16 12:32:25.868 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/api/Book/get-all-books?pageNumber=1&pageSize=100 - 401 0 null 32.5647ms
+2024-05-16 12:32:47.010 +07:00 [INF] User profile is available. Using 'C:\Users\Ngoc Nhan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-16 12:32:47.344 +07:00 [INF] Now listening on: https://localhost:7118
+2024-05-16 12:32:47.345 +07:00 [INF] Now listening on: http://localhost:5202
+2024-05-16 12:32:47.348 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-16 12:32:47.349 +07:00 [INF] Hosting environment: Development
+2024-05-16 12:32:47.349 +07:00 [INF] Content root path: D:\Lab API\WebAPI_Build_Library_API
+2024-05-16 12:32:48.339 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/swagger/index.html - null null
+2024-05-16 12:32:48.697 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/swagger/index.html - 200 null text/html;charset=utf-8 370.1637ms
+2024-05-16 12:32:48.709 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-16 12:32:48.720 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript; charset=utf-8 11.3882ms
+2024-05-16 12:32:48.725 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_vs/browserLink - null null
+2024-05-16 12:32:48.740 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7118/api/Book/get-all-books?filterOn=&filterQuery=&sortBy=&isAscending=True - null null
+2024-05-16 12:32:48.818 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_vs/browserLink - 200 null text/javascript; charset=UTF-8 93.7604ms
+2024-05-16 12:32:48.831 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Read)
+2024-05-16 12:32:48.836 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-16 12:32:48.845 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7118/api/Book/get-all-books?filterOn=&filterQuery=&sortBy=&isAscending=True - 401 0 null 105.7077ms
+2024-05-16 12:32:48.916 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/swagger/v1/swagger.json - null null
+2024-05-16 12:32:53.468 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4552.2001ms

@@ -1,0 +1,25 @@
+2024-05-16 12:29:10.678 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/api/Book/get-all-books?pageNumber=1&pageSize=100 - null null
+2024-05-16 12:29:10.712 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Read)
+2024-05-16 12:29:10.726 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-16 12:29:10.730 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/api/Book/get-all-books?pageNumber=1&pageSize=100 - 401 0 null 52.3868ms
+2024-05-16 12:29:26.961 +07:00 [INF] User profile is available. Using 'C:\Users\Ngoc Nhan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-16 12:29:27.257 +07:00 [INF] Now listening on: https://localhost:7118
+2024-05-16 12:29:27.263 +07:00 [INF] Now listening on: http://localhost:5202
+2024-05-16 12:29:27.269 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-16 12:29:27.273 +07:00 [INF] Hosting environment: Development
+2024-05-16 12:29:27.275 +07:00 [INF] Content root path: D:\Lab API\WebAPI_Build_Library_API
+2024-05-16 12:29:28.001 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/swagger/index.html - null null
+2024-05-16 12:29:28.276 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/swagger/index.html - 200 null text/html;charset=utf-8 283.9513ms
+2024-05-16 12:29:28.281 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-16 12:29:28.283 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7118/api/Book/get-all-books?%20filterOn=&filterQuery=&sortBy=&isAscending=True - null null
+2024-05-16 12:29:28.295 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_vs/browserLink - null null
+2024-05-16 12:29:28.295 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript; charset=utf-8 14.3817ms
+2024-05-16 12:29:28.402 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_vs/browserLink - 200 null text/javascript; charset=UTF-8 107.7167ms
+2024-05-16 12:29:28.405 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Read)
+2024-05-16 12:29:28.412 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-16 12:29:28.420 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7118/api/Book/get-all-books?%20filterOn=&filterQuery=&sortBy=&isAscending=True - 401 0 null 136.341ms
+2024-05-16 12:29:28.507 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/swagger/v1/swagger.json - null null

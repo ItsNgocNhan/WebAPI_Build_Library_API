@@ -46,6 +46,9 @@ git push origin master
 - Thêm chứng thực Authentication và Authorization ( JWT Token ).
 - Thêm Logging bằng thư viện Serilog.
 - Add Download và Upload File.
+### - Version 1.7  - 17/05/2024:
+- Add MVC
+- Fix bug nhưng chưa thành công =)))
 ## Contact
 
 [Facebook](https://www.facebook.com/ItsNgocNhan/)

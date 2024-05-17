@@ -1,0 +1,1 @@
+2024-05-16 13:35:18.988 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 24522.42ms

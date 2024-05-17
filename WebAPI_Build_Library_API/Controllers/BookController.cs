@@ -47,7 +47,7 @@ namespace WebAPI_Build_Library_API.Controllers
         }
         [HttpGet]
         [Route("get-book-by-id/{id}")]
-        [Authorize(Roles ="Write")]
+        [Authorize(Roles = "Write")]
         public IActionResult GetBookById([FromRoute] int id)
         {
             var bookWithIdDTO = _bookRepository.GetBookById(id);

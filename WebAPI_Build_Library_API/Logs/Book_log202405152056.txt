@@ -1,0 +1,6 @@
+2024-05-15 20:56:37.213 +07:00 [INF] User profile is available. Using 'C:\Users\Ngoc Nhan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-15 20:56:37.618 +07:00 [INF] Now listening on: https://localhost:7118
+2024-05-15 20:56:37.620 +07:00 [INF] Now listening on: http://localhost:5202
+2024-05-15 20:56:37.626 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-15 20:56:37.628 +07:00 [INF] Hosting environment: Development
+2024-05-15 20:56:37.629 +07:00 [INF] Content root path: D:\Lab API\WebAPI_Build_Library_API

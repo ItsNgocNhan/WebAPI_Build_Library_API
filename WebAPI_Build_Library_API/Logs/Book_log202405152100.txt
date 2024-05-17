@@ -1,0 +1,42 @@
+2024-05-15 21:00:03.054 +07:00 [INF] User profile is available. Using 'C:\Users\Ngoc Nhan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-15 21:00:03.241 +07:00 [INF] Now listening on: https://localhost:7118
+2024-05-15 21:00:03.242 +07:00 [INF] Now listening on: http://localhost:5202
+2024-05-15 21:00:03.243 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-15 21:00:03.244 +07:00 [INF] Hosting environment: Development
+2024-05-15 21:00:03.244 +07:00 [INF] Content root path: D:\Lab API\WebAPI_Build_Library_API
+2024-05-15 21:00:03.795 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/swagger/index.html - null null
+2024-05-15 21:00:04.004 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/swagger/index.html - 200 null text/html;charset=utf-8 211.7679ms
+2024-05-15 21:00:04.006 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-15 21:00:04.006 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_vs/browserLink - null null
+2024-05-15 21:00:04.018 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript; charset=utf-8 11.9856ms
+2024-05-15 21:00:04.255 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_vs/browserLink - 200 null text/javascript; charset=UTF-8 249.4013ms
+2024-05-15 21:00:04.301 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/swagger/v1/swagger.json - null null
+2024-05-15 21:00:04.426 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 125.5825ms
+2024-05-15 21:00:28.400 +07:00 [INF] User profile is available. Using 'C:\Users\Ngoc Nhan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-15 21:00:28.834 +07:00 [INF] Now listening on: https://localhost:7118
+2024-05-15 21:00:28.836 +07:00 [INF] Now listening on: http://localhost:5202
+2024-05-15 21:00:28.839 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-15 21:00:28.841 +07:00 [INF] Hosting environment: Development
+2024-05-15 21:00:28.841 +07:00 [INF] Content root path: D:\Lab API\WebAPI_Build_Library_API
+2024-05-15 21:00:29.391 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/swagger/index.html - null null
+2024-05-15 21:00:29.645 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/swagger/index.html - 200 null text/html;charset=utf-8 258.6738ms
+2024-05-15 21:00:29.645 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-15 21:00:29.651 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_vs/browserLink - null null
+2024-05-15 21:00:29.656 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript; charset=utf-8 10.8068ms
+2024-05-15 21:00:29.693 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.0457ms
+2024-05-15 21:00:29.727 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/swagger/v1/swagger.json - null null
+2024-05-15 21:00:29.831 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 104.7433ms
+2024-05-15 21:00:50.502 +07:00 [INF] User profile is available. Using 'C:\Users\Ngoc Nhan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-15 21:00:50.772 +07:00 [INF] Now listening on: https://localhost:7118
+2024-05-15 21:00:50.773 +07:00 [INF] Now listening on: http://localhost:5202
+2024-05-15 21:00:50.775 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-15 21:00:50.775 +07:00 [INF] Hosting environment: Development
+2024-05-15 21:00:50.775 +07:00 [INF] Content root path: D:\Lab API\WebAPI_Build_Library_API
+2024-05-15 21:00:51.484 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/swagger/index.html - null null
+2024-05-15 21:00:51.690 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/swagger/index.html - 200 null text/html;charset=utf-8 210.5834ms
+2024-05-15 21:00:51.698 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-15 21:00:51.701 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_vs/browserLink - null null
+2024-05-15 21:00:51.704 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript; charset=utf-8 5.6614ms
+2024-05-15 21:00:51.734 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.6629ms
+2024-05-15 21:00:51.779 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/swagger/v1/swagger.json - null null
+2024-05-15 21:00:51.871 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 91.6ms

@@ -1,0 +1,19 @@
+2024-05-16 13:34:51.551 +07:00 [INF] User profile is available. Using 'C:\Users\Ngoc Nhan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-16 13:34:51.863 +07:00 [INF] Now listening on: https://localhost:7118
+2024-05-16 13:34:51.864 +07:00 [INF] Now listening on: http://localhost:5202
+2024-05-16 13:34:51.866 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-16 13:34:51.867 +07:00 [INF] Hosting environment: Development
+2024-05-16 13:34:51.868 +07:00 [INF] Content root path: D:\Lab API\WebAPI_Build_Library_API
+2024-05-16 13:34:53.235 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/swagger/index.html - null null
+2024-05-16 13:34:53.931 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/swagger/index.html - 200 null text/html;charset=utf-8 701.7922ms
+2024-05-16 13:34:53.946 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-16 13:34:53.952 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_vs/browserLink - null null
+2024-05-16 13:34:53.997 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript; charset=utf-8 51.8002ms
+2024-05-16 13:34:54.007 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7118/api/Book/get-all-books?filterOn=&filterQuery=&sortBy=&isAscending=True - null null
+2024-05-16 13:34:54.255 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_vs/browserLink - 200 null text/javascript; charset=UTF-8 303.1578ms
+2024-05-16 13:34:54.264 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Read)
+2024-05-16 13:34:54.270 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-16 13:34:54.310 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7118/api/Book/get-all-books?filterOn=&filterQuery=&sortBy=&isAscending=True - 401 0 null 303.8208ms
+2024-05-16 13:34:54.467 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/swagger/v1/swagger.json - null null

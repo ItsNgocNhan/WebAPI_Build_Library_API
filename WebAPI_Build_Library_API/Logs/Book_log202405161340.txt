@@ -1,0 +1,15 @@
+2024-05-16 13:40:04.688 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7118/api/Books/get-all-books?filterOn=&filterQuery=&sortBy=&isAscending=True - null null
+2024-05-16 13:40:04.692 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7118/api/Books/get-all-books?filterOn=&filterQuery=&sortBy=&isAscending=True - 404 0 null 3.7682ms
+2024-05-16 13:40:04.693 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7118/api/Books/get-all-books, Response status code: 404
+2024-05-16 13:40:36.529 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/api/Book/get-all-books?pageNumber=1&pageSize=100 - null null
+2024-05-16 13:40:36.534 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Read)
+2024-05-16 13:40:36.535 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-16 13:40:36.536 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/api/Book/get-all-books?pageNumber=1&pageSize=100 - 401 0 null 7.1364ms
+2024-05-16 13:40:38.672 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/api/Book/get-all-books?pageNumber=1&pageSize=100 - null null
+2024-05-16 13:40:38.675 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Read)
+2024-05-16 13:40:38.676 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-16 13:40:38.677 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/api/Book/get-all-books?pageNumber=1&pageSize=100 - 401 0 null 4.9236ms

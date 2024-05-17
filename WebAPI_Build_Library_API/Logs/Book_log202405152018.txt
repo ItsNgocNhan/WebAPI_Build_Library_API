@@ -1,0 +1,17 @@
+2024-05-15 20:18:18.001 +07:00 [INF] User profile is available. Using 'C:\Users\Ngoc Nhan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-15 20:18:18.128 +07:00 [INF] Now listening on: https://localhost:7118
+2024-05-15 20:18:18.130 +07:00 [INF] Now listening on: http://localhost:5202
+2024-05-15 20:18:18.134 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-15 20:18:18.136 +07:00 [INF] Hosting environment: Development
+2024-05-15 20:18:18.138 +07:00 [INF] Content root path: D:\Lab API\WebAPI_Build_Library_API
+2024-05-15 20:18:18.741 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/swagger/index.html - null null
+2024-05-15 20:18:18.930 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/swagger/index.html - 200 null text/html;charset=utf-8 194.2591ms
+2024-05-15 20:18:18.943 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_vs/browserLink - null null
+2024-05-15 20:18:18.943 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-15 20:18:18.950 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript; charset=utf-8 7.2638ms
+2024-05-15 20:18:18.973 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.4445ms
+2024-05-15 20:18:19.017 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/swagger/v1/swagger.json - null null
+2024-05-15 20:18:19.024 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/swagger/favicon-32x32.png - null null
+2024-05-15 20:18:19.035 +07:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-15 20:18:19.036 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/swagger/favicon-32x32.png - 200 628 image/png 11.8732ms
+2024-05-15 20:18:19.087 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 69.8195ms

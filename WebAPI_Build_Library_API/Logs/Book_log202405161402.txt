@@ -1,0 +1,17 @@
+2024-05-16 14:02:17.349 +07:00 [INF] User profile is available. Using 'C:\Users\Ngoc Nhan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-16 14:02:17.622 +07:00 [INF] Now listening on: https://localhost:7118
+2024-05-16 14:02:17.623 +07:00 [INF] Now listening on: http://localhost:5202
+2024-05-16 14:02:17.626 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-16 14:02:17.627 +07:00 [INF] Hosting environment: Development
+2024-05-16 14:02:17.628 +07:00 [INF] Content root path: D:\Lab API\WebAPI_Build_Library_API
+2024-05-16 14:02:18.642 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/swagger/index.html - null null
+2024-05-16 14:02:18.978 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7118/api/Books/get-all-books?filterOn=&filterQuery=&sortBy=&isAscending=True - null null
+2024-05-16 14:02:18.986 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/swagger/index.html - 200 null text/html;charset=utf-8 356.7669ms
+2024-05-16 14:02:19.007 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-16 14:02:19.015 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_vs/browserLink - null null
+2024-05-16 14:02:19.048 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript; charset=utf-8 41.4293ms
+2024-05-16 14:02:19.089 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7118/api/Books/get-all-books?filterOn=&filterQuery=&sortBy=&isAscending=True - 404 0 null 111.6374ms
+2024-05-16 14:02:19.096 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7118/api/Books/get-all-books, Response status code: 404
+2024-05-16 14:02:19.128 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_vs/browserLink - 200 null text/javascript; charset=UTF-8 114.9432ms
+2024-05-16 14:02:19.199 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/swagger/v1/swagger.json - null null
+2024-05-16 14:02:19.379 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 180.6309ms

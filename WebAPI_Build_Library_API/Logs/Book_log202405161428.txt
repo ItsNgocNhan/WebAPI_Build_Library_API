@@ -1,0 +1,55 @@
+2024-05-16 14:28:09.295 +07:00 [INF] User profile is available. Using 'C:\Users\Ngoc Nhan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-16 14:28:09.574 +07:00 [INF] Now listening on: https://localhost:7118
+2024-05-16 14:28:09.574 +07:00 [INF] Now listening on: http://localhost:5202
+2024-05-16 14:28:09.576 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-16 14:28:09.577 +07:00 [INF] Hosting environment: Development
+2024-05-16 14:28:09.577 +07:00 [INF] Content root path: D:\Lab API\WebAPI_Build_Library_API
+2024-05-16 14:28:10.230 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/swagger/index.html - null null
+2024-05-16 14:28:10.430 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/swagger/index.html - 200 null text/html;charset=utf-8 205.1036ms
+2024-05-16 14:28:10.435 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-16 14:28:10.440 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_vs/browserLink - null null
+2024-05-16 14:28:10.450 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript; charset=utf-8 14.5218ms
+2024-05-16 14:28:10.472 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7118/api/Book/get-all-books?filterOn=&filterQuery=&sortBy=&isAscending=True - null null
+2024-05-16 14:28:10.532 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_vs/browserLink - 200 null text/javascript; charset=UTF-8 91.8659ms
+2024-05-16 14:28:10.553 +07:00 [INF] Executing endpoint 'WebAPI_Build_Library_API.Controllers.BookController.GetAll (WebAPI_Build_Library_API)'
+2024-05-16 14:28:10.567 +07:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll(System.String, System.String, System.String, Boolean, Int32, Int32) on controller WebAPI_Build_Library_API.Controllers.BookController (WebAPI_Build_Library_API).
+2024-05-16 14:28:10.574 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/swagger/v1/swagger.json - null null
+2024-05-16 14:28:10.724 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 150.2514ms
+2024-05-16 14:28:10.754 +07:00 [INF] GetAll Book Action method was invoked
+2024-05-16 14:28:10.755 +07:00 [WRN] This is a warning log
+2024-05-16 14:28:10.755 +07:00 [ERR] This is a error log
+2024-05-16 14:28:11.368 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-05-16 14:28:11.370 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-05-16 14:28:11.781 +07:00 [INF] Executed DbCommand (44ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Title], [t].[Description], [t].[IsRead], CASE
+    WHEN [t].[IsRead] = CAST(1 AS bit) THEN [t].[DateRead]
+    ELSE NULL
+END, CASE
+    WHEN [t].[IsRead] = CAST(1 AS bit) THEN [t].[Rate]
+    ELSE NULL
+END, [t].[Genre], [t].[CoverURL], [p].[Name], [p].[Id], [t0].[FullName], [t0].[Id], [t0].[Id0]
+FROM (
+    SELECT [b].[Id], [b].[CoverURL], [b].[DateRead], [b].[Description], [b].[Genre], [b].[IsRead], [b].[PublisherID], [b].[Rate], [b].[Title]
+    FROM [Books] AS [b]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Publishers] AS [p] ON [t].[PublisherID] = [p].[Id]
+LEFT JOIN (
+    SELECT [a].[FullName], [b0].[Id], [a].[Id] AS [Id0], [b0].[BookId]
+    FROM [Book_Authors] AS [b0]
+    INNER JOIN [Authors] AS [a] ON [b0].[AuthorId] = [a].[Id]
+) AS [t0] ON [t].[Id] = [t0].[BookId]
+ORDER BY [t].[Id], [p].[Id], [t0].[Id]
+2024-05-16 14:28:11.796 +07:00 [INF] Finished GetAllBook request with data[]
+2024-05-16 14:28:11.800 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebAPI_Build_Library_API.Models.DTO.BookWithAuthorAndPublisherDTO, WebAPI_Build_Library_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-16 14:28:11.810 +07:00 [INF] Executed action WebAPI_Build_Library_API.Controllers.BookController.GetAll (WebAPI_Build_Library_API) in 1238.9283ms
+2024-05-16 14:28:11.811 +07:00 [INF] Executed endpoint 'WebAPI_Build_Library_API.Controllers.BookController.GetAll (WebAPI_Build_Library_API)'
+2024-05-16 14:28:11.817 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7118/api/Book/get-all-books?filterOn=&filterQuery=&sortBy=&isAscending=True - 200 null application/json; charset=utf-8 1345.426ms
+2024-05-16 14:28:31.841 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7118/api/Book/add-book - application/json 265
+2024-05-16 14:28:31.847 +07:00 [INF] Executing endpoint 'WebAPI_Build_Library_API.Controllers.BookController.AddBook (WebAPI_Build_Library_API)'
+2024-05-16 14:28:31.854 +07:00 [INF] Route matched with {action = "AddBook", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddBook(WebAPI_Build_Library_API.Models.DTO.AddBookRequestDTO) on controller WebAPI_Build_Library_API.Controllers.BookController (WebAPI_Build_Library_API).
+2024-05-16 14:28:31.886 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-05-16 14:28:31.897 +07:00 [INF] Executed action WebAPI_Build_Library_API.Controllers.BookController.AddBook (WebAPI_Build_Library_API) in 40.0884ms
+2024-05-16 14:28:31.899 +07:00 [INF] Executed endpoint 'WebAPI_Build_Library_API.Controllers.BookController.AddBook (WebAPI_Build_Library_API)'
+2024-05-16 14:28:31.900 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7118/api/Book/add-book - 400 null application/problem+json; charset=utf-8 59.6252ms

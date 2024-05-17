@@ -1,0 +1,24 @@
+2024-05-15 20:58:09.230 +07:00 [INF] User profile is available. Using 'C:\Users\Ngoc Nhan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-15 20:58:09.668 +07:00 [INF] Now listening on: https://localhost:7118
+2024-05-15 20:58:09.670 +07:00 [INF] Now listening on: http://localhost:5202
+2024-05-15 20:58:09.674 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-15 20:58:09.676 +07:00 [INF] Hosting environment: Development
+2024-05-15 20:58:09.677 +07:00 [INF] Content root path: D:\Lab API\WebAPI_Build_Library_API
+2024-05-15 20:58:10.179 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/swagger/index.html - null null
+2024-05-15 20:58:10.434 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/swagger/index.html - 200 null text/html;charset=utf-8 261.4491ms
+2024-05-15 20:58:10.464 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-15 20:58:10.464 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/_vs/browserLink - null null
+2024-05-15 20:58:10.489 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript; charset=utf-8 24.7805ms
+2024-05-15 20:58:10.534 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/_vs/browserLink - 200 null text/javascript; charset=UTF-8 69.5196ms
+2024-05-15 20:58:10.570 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/swagger/v1/swagger.json - null null
+2024-05-15 20:58:10.684 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 113.8002ms
+2024-05-15 20:58:18.432 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7118/api/Images - null null
+2024-05-15 20:58:18.487 +07:00 [INF] Executing endpoint 'WebAPI_Build_Library_API.Controllers.ImagesController.GetAllInfoImages (WebAPI_Build_Library_API)'
+2024-05-15 20:58:18.504 +07:00 [INF] Route matched with {action = "GetAllInfoImages", controller = "Images"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllInfoImages() on controller WebAPI_Build_Library_API.Controllers.ImagesController (WebAPI_Build_Library_API).
+2024-05-15 20:58:19.452 +07:00 [INF] Executed DbCommand (68ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[FileDescription], [m].[FileExtension], [m].[FileName], [m].[FilePath], [m].[FizeSizeInBytes]
+FROM [MyImages] AS [m]
+2024-05-15 20:58:19.500 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebAPI_Build_Library_API.Models.Image, WebAPI_Build_Library_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-15 20:58:19.511 +07:00 [INF] Executed action WebAPI_Build_Library_API.Controllers.ImagesController.GetAllInfoImages (WebAPI_Build_Library_API) in 1002.316ms
+2024-05-15 20:58:19.512 +07:00 [INF] Executed endpoint 'WebAPI_Build_Library_API.Controllers.ImagesController.GetAllInfoImages (WebAPI_Build_Library_API)'
+2024-05-15 20:58:19.519 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7118/api/Images - 200 null application/json; charset=utf-8 1086.9467ms
